@@ -49,7 +49,7 @@ int main()
     }
     qsort((void *)ps, n, sizeof(struct process_struct), sort2);
     printf("--------------------------------------------------------------------------------------------\n");
-    printf("Process No. \tAT\tBurst Time\t  Completion T\tTurn Around T\t\t   Waiting T\n");
+    printf("Process No. \tAT\tBurst Time\t  Completion T\tTurn Around T\t\tWaiting TS\n");
     printf("--------------------------------------------------------------------------------------------\n");
     for (int i = 0; i < n; i++)
     {
