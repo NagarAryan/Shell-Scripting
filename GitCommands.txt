@@ -1,0 +1,16 @@
+git add .
+git commit -m "Commit Message"
+git push -u origin master
+put username (NagarAryan)
+create token and enter.
+
+git config --global user.name "YOUR NAME"
+git config --global user.email "YOUR EMAIL ID"
+
+
+git clone "link of the repo u wanna clone"
+enter username and token
+
+sudo apt get git
+git --version
+
